@@ -10,11 +10,11 @@ while ans:
     BetYou = ["BetYou One Dollar", "BetYou One Penny"]
     answers = random.randint(1,10)
     randword = random.randint(0,1)
-    BetYou = random.randint(0,1)
+    BetYounum = random.randint(0,1)
     word = words[randword]
-    BetYou = BetYou[randword]
+    BetYouamount = BetYou[BetYounum]
     print(word)
-    print(BetYou)
+    print(BetYouamount)
     if question =="":
         sys.exit()
 

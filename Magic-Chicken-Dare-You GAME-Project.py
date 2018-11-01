@@ -7,11 +7,14 @@ ans = True
 while ans:
     question = raw_input("Dare-you tell the Truth and ask the magic 10 ball:(press enter to quit)")
     words = ["Chicken", "Dare You"]
+    BetYou = ["BetYou One Dollar", "BetYou One Penny"]
     answers = random.randint(1,10)
     randword = random.randint(0,1)
+    BetYou = random.randint(0,1)
     word = words[randword]
+    BetYou = BetYou[randword]
     print(word)
-
+    print(BetYou)
     if question =="":
         sys.exit()
 
